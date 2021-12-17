@@ -2,7 +2,11 @@ import React from "react";
 
 import "../App.css";
 
-const Note = ({ activeNote }) => {
+const Note = ({ activeNote, notes }) => {
+  if (notes.length === 0) {
+    return <p>Please create a new note!</p>;
+  }
+
   if (activeNote === undefined) {
     return <p>Please select the note..</p>;
   }

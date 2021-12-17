@@ -90,7 +90,7 @@ function App() {
           editActiveNoteHandler={editActiveNote}
           deleteNoteHandler={removeActiveNote}
         />
-        {!isWritingNote && <Note activeNote={activeNote} />}
+        {!isWritingNote && <Note activeNote={activeNote} notes={notes} />}
         {isEditingNote && (
           <EditNoteForm
             activeNote={activeNote}
