@@ -1,0 +1,75 @@
+#green {
+  color: rgb(0, 182, 30);
+}
+
+#yellow {
+  color: rgb(255, 255, 44);
+}
+
+#red {
+  color: rgb(247, 22, 22);
+}
+
+#purple {
+  color: rgb(185, 1, 185);
+}
+
+#blue {
+  color: rgb(90, 178, 250);
+}
+
+.header {
+  background-color: rgb(50, 50, 50);
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+input {
+  width: 100%;
+  display: inline-block;
+  padding: 6px 16px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+select {
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+label {
+  display: inline-block;
+  padding: 10px;
+}
+
+span {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+button {
+  display: block;
+  margin: auto;
+  width: 100px;
+  text-align: center;
+  border: 1px solid rgb(230, 230, 230);
+  background: rgb(230, 230, 230);
+  color: rgb(50, 50, 50);
+  padding: 5px 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover,
+button:active {
+  background: white;
+  border-color: white;
+}
+
+button:focus {
+  outline: none;
+}
